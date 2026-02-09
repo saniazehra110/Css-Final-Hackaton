@@ -84,6 +84,7 @@ height: 166px;
 
 .ride1{
     width: 20vw;
+
 }
 
 
@@ -101,6 +102,7 @@ height: 166px;
 .sec2{
     margin-left: 30px !important;
 }
+
 .sec5{
     display: flex;
     margin-left: 30vh;
@@ -119,6 +121,7 @@ height: 166px;
     background-color: aliceblue;
 width: 80vw;
 margin-left: 15vh;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
 }
 .bft1{
     padding: 10vh;
@@ -131,6 +134,154 @@ margin-left: 15vh;
     justify-content: space-evenly;
     height: 40vh;
     background-color: aliceblue;
-width: 80vw;
-margin-left: 15vh;
+width: 75vw;
+margin-left: 10vh;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
 }
+.ear2{
+padding: 15vh;
+}
+.ear1{
+    padding: 6vh;
+}
+.pic2{
+    display: flex;
+    gap: 1em;
+}
+
+
+
+
+.custumer{
+    background-image: url(./Group\ 3693.png);
+    height: 80vh;
+    background-repeat: no-repeat;
+    margin-left: 20vw;
+    position: relative;
+    display: flex;
+}
+.custumer1{
+    width: 80vw;
+    background-color: aliceblue;
+    height: 40vh;
+    margin-left: -100px;
+    margin-top: 50px;
+    z-index: 1;
+    position: absolute;
+
+     bottom: 200px;   
+    left: 50%;
+    transform: translateX(-50%);
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+
+
+    display: flex;
+}
+.cus{
+width: 40vw;
+padding: 10vh;
+}
+.cus2{
+    display: flex;
+}
+.custum2{
+    margin-left: 13vh;
+}
+
+
+.last{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.final1{
+    color: green;
+}
+.final{
+    height: 30vh;
+    margin-left: 35vw;
+    margin-top: 30vh;
+}
+
+
+ @media (max-width:1500px){
+    .rec{
+        margin-left: -50px;
+    }
+  .let{
+    margin-top: -75px;
+  }
+  .dark-btn2{
+    margin-top: 60px;
+  }
+  .sec5{
+    margin-left: 16vh;
+  }
+
+
+.work{
+    height: 50vh;
+}
+
+
+.benefits1{
+    margin-left: 40vw;
+}
+.bft{
+    height: 30vh;
+}
+.bft1{
+    margin-left: -15vw;
+}
+.bft2{
+    margin-top: 70px;
+}
+
+
+.earning{
+    height: 30vh;
+}
+.ear2{
+    margin-top: -50px;
+} 
+.custumer1{
+    height: 30vh;
+    bottom: 550px;
+}
+}
+
+
+
+
+
+ @media (max-width:1350px){
+    .rec{
+        width: 85vw;
+    }
+    .benefits{
+        height: 60vh;
+    }
+    .app{
+        font-size: 50px;
+    }
+    .simple{
+        font-size: 20px;
+    }
+ }
+
+
+
+ 
+ @media (max-width:1275px){
+    .hero1{
+        padding: 5vh;
+    }
+    .hero2{
+        margin-left: 5vh;
+    }
+    .custum2{
+        margin-top: 5vh;
+        margin-left: 30px;
+    }
+ }
