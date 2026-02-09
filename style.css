@@ -251,6 +251,10 @@ padding: 10vh;
 }
 }
 
+
+
+
+
  @media (max-width:1350px){
     .rec{
         width: 85vw;
@@ -265,8 +269,6 @@ padding: 10vh;
         font-size: 20px;
     }
  }
-
-
 
 
 
@@ -286,13 +288,13 @@ padding: 10vh;
         width: 90vw;
         margin-left: -100px;
     }
-     
     
     .let{
         margin-left: -90px;
     }
     .work{
         margin-left: -50px;
+        height: 90vh;
     }
     .earning{
         width: 80vw;
@@ -302,6 +304,12 @@ padding: 10vh;
     }
     .benefits{
         margin-left: -50px;
+    }
+    .bft{
+        height: 50vh !important;
+    }
+    .bft2{
+        margin-top: 30px;
     }
   }
 
@@ -313,8 +321,21 @@ padding: 10vh;
     .bft2{
         margin-left: 50px;
     }
+    .benefitss{
+        height: 120vh;
+    }
+
+    .earningg{
+        height: 120vh;
+    }
    .ear2{
     margin-left: -30px;
+   }
+   .custumer1{
+    height: 70vh;
+   }
+   .earning{
+    height: 60vh;
    }
    }
 
@@ -352,6 +373,9 @@ padding: 10vh;
     }
     .benefits{
         margin-left: 2vw;
+    }
+    .benefitss{
+        height: 120vh;
     }
     .custum2{
         margin-left: -5vw;
@@ -425,13 +449,13 @@ padding: 10vh;
   width: 140px;
 }
 .earningg{
-    height: 90vh;
+    height: 150vh;
 }
 
 .earning{
     width: 90vw;
     flex-direction: column-reverse;
-    height: 60vh !important;
+    height: 80vh !important;
     margin-left: 15vw;
 }
 .ear1{
@@ -443,9 +467,9 @@ padding: 10vh;
 .custumer1{
     width: 90vw;
     flex-direction: column;
-    height: 60vh;
+    height: 80vh;
     z-index: 2;
-    margin-top: 30vh !important;
+    margin-top: 45vh !important;
     position: relative;
     margin-left: -10vh;
 }
@@ -466,19 +490,21 @@ position: absolute;
   text-align: center;
   margin-bottom: 10vh;       
 }
-
+.benefitss{
+    height: 130vh;
+}
 .benefits1{
   margin-left: 0;
   text-align: center;
   height: 25vh;
-  margin-bottom: 5vh;
+  margin-top: 35vh;
 }
 
 .bft{
   display: flex;            
   flex-direction: column;
   width: 90vw;
-  height: 60vh;
+  height: 80vh;
   margin: auto;
   margin-left: 13vw;
 }
@@ -493,7 +519,10 @@ position: absolute;
     height: 70vh;
 }
 .last{
-    margin-top: 80vh !important;
+    margin-top: 100vh !important;
+    flex-direction: column;
+    align-items: center;
+    gap: 2em;
 }
 .lastt{
     height: 10vh;
@@ -521,6 +550,29 @@ position: absolute;
  
 }
 
+@media (max-width: 650px){
+    .bft{
+        margin-top: 20vh;
+    }
+    .benefitss{
+        height: 150vh;
+    }
+    .earningg{
+        height: 150vh;
+    }
+    .custumer1{
+        height: 80vh;
+    }
+    .last{
+        flex-direction: column;
+        gap: 2em;
+        align-items: center;
+    }
+    .lastt{
+        height: 70vh;
+    }
+}
+
 @media (max-width: 550px){
 .ear1{
     margin-top: -90px;
@@ -532,7 +584,36 @@ position: absolute;
     margin-left: 20px;
 }
 .benefits1{
-    margin-top: 100px;
+    margin-top: 50vh;
     height: 5vh;
+}
+.last{
+    flex-direction: column;
+    gap: 3em;
+    align-items: center;
+}
+.lastt{
+    height: 50vh;
+}
+}
+
+
+@media (max-width: 450px){
+    .benefits1{
+        margin-top: 70vh;
+    }
+    .custum2{
+        margin-left: 5vw;
+        margin-top: -80px;
+    }
+}
+
+@media (max-width: 375px){
+    .benefits1{
+    margin-top: 50vh;
+    height: 5vh;
+}
+.custumer1{
+    height: 95vh;
 }
 }
