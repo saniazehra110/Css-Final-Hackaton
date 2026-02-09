@@ -1,0 +1,136 @@
+.hero1{
+    width: 50vw;
+    padding: 10vh;
+
+}
+.app{
+    font-size: 60px;
+}
+.simple{
+    font-size: 24px;
+}
+.btnn{
+    
+}
+.hero{
+    display: flex;
+}
+.hero2{
+    margin-left: 10vh;
+}
+
+
+
+
+.navebar2{
+    padding: 12vh;
+}
+.rec{
+    width: 1280px;
+height: 166px;
+    background-image: url(./Rectangle\ 2798.png);
+    padding: 10 !important;
+    display: flex;
+}
+.let{
+    padding: 10vh;
+    color: white;
+    font-size: 20px;
+}
+.active-btn{
+    height: 50px;
+    width: 20vw;
+    margin-top: 9vh;
+}
+.dark-btn2{
+    height: 50px;
+    width: 15vw;
+     margin-top: 9vh;
+     margin-left: 20px;
+}
+
+
+
+
+
+
+
+
+/*
+.work{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}*/
+.work{
+    height: 90vh;
+}
+.how{
+    margin-left: 15vw;
+    width: 50vw;
+}
+.spn{
+    color: green;
+}
+.pera1{
+    width: 50vw;
+    margin-left: 15vh;
+}
+.ride{
+
+    width: 20vw;
+}
+
+
+.ride1{
+    width: 20vw;
+}
+
+
+.ride2{
+    width: 20vw;
+}
+
+.ride3{
+    width: 20vw;
+}
+
+.circle{
+
+}
+.sec2{
+    margin-left: 30px !important;
+}
+.sec5{
+    display: flex;
+    margin-left: 30vh;
+}
+
+.benefits{
+    height: 80vh;
+}
+.benefits1{
+    margin-left: 80vh;
+}
+.bft{
+    display: flex;
+    justify-content: space-evenly;
+    height: 40vh;
+    background-color: aliceblue;
+width: 80vw;
+margin-left: 15vh;
+}
+.bft1{
+    padding: 10vh;
+}
+
+
+
+.earning{
+ display: flex;
+    justify-content: space-evenly;
+    height: 40vh;
+    background-color: aliceblue;
+width: 80vw;
+margin-left: 15vh;
+}
