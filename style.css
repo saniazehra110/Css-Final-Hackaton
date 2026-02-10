@@ -272,8 +272,9 @@ padding: 10vh;
 
 
 
+
  
- @media (max-width:1275px){
+ @media (max-width:1285px){
     .hero1{
         padding: 5vh;
     }
@@ -284,13 +285,17 @@ padding: 10vh;
         margin-top: 5vh;
         margin-left: 30px;
     }
+    .custumer1{
+        height: 50vh;
+    }
     .rec{
         width: 90vw;
         margin-left: -100px;
     }
     
     .let{
-        margin-left: -90px;
+        margin-left: -50px;
+        margin-top: -10px;
     }
     .work{
         margin-left: -50px;
@@ -298,6 +303,10 @@ padding: 10vh;
     }
     .earning{
         width: 80vw;
+        height: 50vh;
+    }
+    .earningg{
+        height: 100vh;
     }
     .ear2{
         margin-left: -30px;
@@ -310,6 +319,9 @@ padding: 10vh;
     }
     .bft2{
         margin-top: 30px;
+    }
+    .navebar2{
+        margin-left: 60px;
     }
   }
 
@@ -326,7 +338,7 @@ padding: 10vh;
     }
 
     .earningg{
-        height: 120vh;
+        height: 150vh;
     }
    .ear2{
     margin-left: -30px;
@@ -337,6 +349,15 @@ padding: 10vh;
    .earning{
     height: 60vh;
    }
+   .navebar2{
+    margin-left: 80px;
+    margin-top: 10vh;
+   }
+   .let{
+    margin-top: 3vh;
+    padding: 50px;
+   }
+
    }
 
 
@@ -587,6 +608,9 @@ position: absolute;
     margin-top: 50vh;
     height: 5vh;
 }
+.bft{
+    height: 70vh !important;
+}
 .last{
     flex-direction: column;
     gap: 3em;
@@ -610,10 +634,19 @@ position: absolute;
 
 @media (max-width: 375px){
     .benefits1{
-    margin-top: 50vh;
+    margin-top: 100vh;
     height: 5vh;
 }
+.bft{
+height: 80vh !important;
+}
+
 .custumer1{
-    height: 95vh;
+    height: 90vh !important;
+    margin-top: 80vh !important;
+}
+.custumer{
+    height: 130vh !important;
 }
 }
+
